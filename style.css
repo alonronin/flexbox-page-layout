@@ -1,0 +1,52 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font: 1rem "Open Sans";
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header,
+footer {
+    flex: 0 0 50px;
+    background: #eaeaea;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+header ul li {
+    flex: 0 0 150px;
+}
+
+header ul li a {
+    text-transform: uppercase;
+}
+
+main {
+    flex: 1;
+    flex-wrap: nowrap;
+    overflow: auto;
+    padding: 20px;
+    color: #333;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

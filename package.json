@@ -1,0 +1,17 @@
+{
+  "name": "flexbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "serve": "^6.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve -o"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
